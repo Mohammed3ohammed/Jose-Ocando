@@ -5,6 +5,7 @@ import "./globals.css";
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from "@/Components/Navbar";
 import Hero from "@/Components/Hero";
+import Intellicheck from "@/Components/Intellicheck";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Navbar/> 
         {children}
         <Hero />
+        <Intellicheck />
         </body>
     </html>
   );
