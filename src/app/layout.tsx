@@ -7,6 +7,7 @@ import Navbar from "@/Components/Navbar";
 import Hero from "@/Components/Hero";
 import Intellicheck from "@/Components/Intellicheck";
 import Story from "@/Components/Story";
+import Aggregate from "@/Components/Aggregate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Hero />
         <Intellicheck />
         <Story />
+        <Aggregate />
         </body>
     </html>
   );

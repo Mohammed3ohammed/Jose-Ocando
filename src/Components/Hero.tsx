@@ -3,7 +3,7 @@ import Link from "next/link";
 const Hero = () => {
 return (
     <>
-  <div className="mt-40 text-stone-700">
+  <div className="mt-40 text-stone-700" >
         <h1 className="text-9xl ml-20 ">Jose <br /> Ocando</h1>
         <div className="grid grid-cols-2  mt-10 ml-20">
         <p className="text-3xl max-w-3xl ">One of my deepest ioys comes from from equipping cretive pepole with the visual tools they need to further their work</p>
