@@ -24,7 +24,7 @@ const Intellicheck = () => {
      </div>
 
       <div className="flex justify-end">
-      <Image src={img} alt=""
+      <Image src={img} alt="Image"
       width={800}
       height={800}
       className="mr-5 rounded-lg "

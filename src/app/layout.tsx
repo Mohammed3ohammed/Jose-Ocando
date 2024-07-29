@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Hero from "@/Components/Hero";
 import Intellicheck from "@/Components/Intellicheck";
+import Story from "@/Components/Story";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         {children}
         <Hero />
         <Intellicheck />
+        <Story />
         </body>
     </html>
   );
