@@ -12,7 +12,7 @@ return (
     <p className='text-xl w-96  text-white'>I created a 3d visual language that emphasizes what the ASI software does on behalf of utility accounting and tax teams.</p>
 
     <Link href="#">
-    <button className='flex justify-center items-center border-solid border-slate-950 border-2 text-white rounded-full w-48 h-9 hover:bg-white'>Read Case Study 
+    <button className='flex justify-center items-center border-solid border-slate-950 border-2 text-white rounded-full w-48 h-9 hover:bg-white hover:text-slate-950'>Read Case Study 
     <svg  xmlns="http://www.w3.org/2000/svg"
        fill="none" viewBox="0 0 24 24"
         strokeWidth={1.5} stroke="currentColor" 
@@ -24,7 +24,7 @@ return (
     </button>
     </Link>
     <Link href="#">
-    <button className="border-2 border-solid border-slate-950 rounded-full text-white w-48 h-9">
+    <button className="border-2 border-solid border-slate-950 rounded-full text-white w-48 h-9 ">
     View Figma File
     </button>
     </Link>

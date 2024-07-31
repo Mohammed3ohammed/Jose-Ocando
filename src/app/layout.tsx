@@ -8,6 +8,7 @@ import Hero from "@/Components/Hero";
 import Intellicheck from "@/Components/Intellicheck";
 import Story from "@/Components/Story";
 import Aggregate from "@/Components/Aggregate";
+import Work from "@/Components/Work";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <Intellicheck />
         <Story />
         <Aggregate />
+        <Work /> 
         </body>
     </html>
   );
