@@ -9,6 +9,7 @@ import Intellicheck from "@/Components/Intellicheck";
 import Story from "@/Components/Story";
 import Aggregate from "@/Components/Aggregate";
 import Work from "@/Components/Work";
+import Blog from "@/Components/Blog";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,8 @@ export default function RootLayout({
         <Intellicheck />
         <Story />
         <Aggregate />
-        <Work /> 
+        <Work />
+        <Blog />  
         </body>
     </html>
   );
