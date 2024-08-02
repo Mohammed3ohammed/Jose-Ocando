@@ -3,8 +3,9 @@ import Link from "next/link";
 const Navbar = () => {
 return (
     <>
-    <nav className="main-container flex justify-center items-center mt-6">
-        <ul className="flex justify-center items-center gap-40 w-7/12 bg-neutral-200 p-2 rounded-full  max-md:hidden ">
+    <nav className="main-container grid grid-cols-1  mt-6">
+        <div className="flex justify-center items-center">
+        <ul className="flex justify-around items-center w-9/12 bg-neutral-200 p-2 rounded-full  max-md:hidden ">
         <li>
         <Link  href="#">
         <svg 
@@ -22,8 +23,9 @@ return (
         <li><Link  href="#">Worg</Link></li>
         <li><Link href="#">About</Link></li>
         <li><Link href="#">Blog</Link></li>
-        <li><Link href="#">Contact</Link></li>
+        <li><Link  href="#">Contact</Link></li>
     </ul>
+    </div>
 </nav>
 </>
 )
