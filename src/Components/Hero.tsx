@@ -1,14 +1,24 @@
+import Image from "next/image";
 import Link from "next/link";
+import img0 from '../../public/logo.png';
 
 const Hero = () => {
 return (
     <>
-  <div className="mt-40 text-stone-700" >
-        <h1 className="text-9xl ml-20 ">Jose <br /> Ocando</h1>
-        <div className="grid grid-cols-2  mt-10 ml-20">
-        <p className="text-3xl max-w-3xl ">One of my deepest ioys comes from from equipping cretive pepole with the visual tools they need to further their work</p>
+  <div className="grid grid-cols-1 gap-10 mt-40 text-stone-700 lg:grid-cols-2" >
+  <div className="flex flex-col justify-center items-center mb-10 lg:mb-0">
+        <h1 className="text-8xl md:text-8xl lg-text-8xl text-center mb-10 lg:w-3/6">Jose <br /> Ocando</h1>
+        <p className="text-xl text-center lg:w-3/6 w-5/6">One of my deepest ioys comes from from equipping cretive pepole with the visual tools they need to further their work</p>
+        <Image src={img0} alt=''
+        className="mt-10 w-20 h-20 "
+        />
+        </div>
         
-    <ul >
+  <div className="flex items-center justify-center  flex-col  lg:items-start">
+  <ul>
+    <li>
+    <h4 className="mb-5 uppercase text-xs text-center lg:text-left">Where you can start</h4> 
+    </li>
       <li ><Link href="#" className="flex mb-1 text-xl">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -34,10 +44,15 @@ return (
 <p className="ml-2">Read a recent blog</p>
       </Link></li>
     </ul>
-  </div>
+   </div>
+
   </div>
   </>
 )
 }
 
 export default Hero;
+
+
+
+
