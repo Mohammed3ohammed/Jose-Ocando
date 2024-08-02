@@ -17,6 +17,7 @@ const Blog = () => {
 <h6 className="mb-1 uppercase text-xs mr-auto">In my drafts</h6>
 <hr className=" border-solid border-neutral-400 w-64" />
 </div>
+
 <div className="flex mb-5">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
  strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -46,7 +47,7 @@ const Blog = () => {
 </div>
 </div>
 
-{/*  */}
+
       <div className="flex justify-around flex-col mt-10">
         <h2 className="text-2xl">24 things that make a great marketing website</h2>
       <div className="text-xl">
@@ -74,6 +75,6 @@ const Blog = () => {
      </div>
         </div>
   )
-}
+};
 
 export default Blog;
