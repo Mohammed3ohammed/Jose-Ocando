@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -11,25 +16,26 @@
   }
 }
 
-body {
-  background-color: rgb(235, 230, 225);
-}
-
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
 
-@layer styles {
+@layer components {
   .main-container {
     @apply w-[90%] max-w-[1400px] mx-auto;
   }
 }
 
 
-#app {
+
+
+/* body {
+  background-color: rgb(235, 230, 225);
+} */
+
+/* #app {
   height: 100%;
 }
 html,
@@ -56,4 +62,4 @@ body {
   width: auto;
   height: auto;
   object-fit: cover;
-}
+} */

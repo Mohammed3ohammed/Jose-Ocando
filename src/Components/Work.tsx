@@ -36,7 +36,7 @@
     };
 
     return (
-    <div className=' grid grid-cols-1 justify-center items-center '  style={{height: "900px"}}>
+    <div className='main-container grid grid-cols-1 justify-center items-center '  style={{height: "900px"}}>
     <div className='flex justify-center items-center text-6xl' >
     <h1>All work13</h1>
     </div>
