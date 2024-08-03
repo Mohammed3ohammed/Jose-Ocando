@@ -4,13 +4,12 @@ import img1 from"../../Image/img16.webp";
 
 const Story = () => {
   return (
-    <div className="grid grid-cols-2 mt-10   bg-gray-900" style={{height: '700px'}}>
-      <div className="flex justify-center items-center">
+    <div className="grid grid-cols-1 mt-10 bg-gray-900 lg:grid-cols-2" style={{height: '700px'}}>
+      <div className="flex justify-center items-center p-4 lg:p-8">
       <Image src={img1}
        alt="Description of the image"
-      width={820}
-      height={820}
-      className="rounded-lg "
+
+      className="rounded-lg mr-5 w-9/12"
       />
       </div>
       <div className="flex justify-around items-center flex-col">
@@ -26,7 +25,7 @@ const Story = () => {
 </svg>
         </button>
 
-        <button className="flex justify-center items-center text-white bor rounded-full border-solid border-slate-950 border-2 w-48 h-10 ">Viem Figma File</button>
+        <button className="flex justify-center items-center text-white bor rounded-full border-solid border-slate-950 border-2 w-48 h-10 mt-2 ">Viem Figma File</button>
       </div>
       </div>
   )

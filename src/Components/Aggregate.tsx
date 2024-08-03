@@ -6,10 +6,10 @@ import img0 from '../../Image/img13.webp'
 const Aggregate = () => {
 return (
 
-    <div className='grid grid-cols-2 bg-gray-900 mt-10' style={{height: '700px'}}>
-    <div className='flex flex-col justify-around items-center'>
-    <h1 className='mt-5 text-white text-xl'>Aggregate Singularity</h1>
-    <p className='text-xl w-96  text-white'>I created a 3d visual language that emphasizes what the ASI software does on behalf of utility accounting and tax teams.</p>
+    <div className='grid grid-cols-1 lg:grid-cols-2 bg-gray-900 mt-10' style={{height: '700px'}}>
+    <div className='flex flex-col justify-around items-center h-full text-white p-4  lg:p-8 lg:space-y-6'>
+    <h1 className='mt-5 text-white text-2xl lg:text-3xl'>Aggregate Singularity</h1>
+    <p className='w-72 mb-2 text-lg lg:w-4/6 lg:text-3/4'>I created a 3d visual language that emphasizes what the ASI software does on behalf of utility accounting and tax teams.</p>
 
     <Link href="#">
     <button className='flex justify-center items-center border-solid border-slate-950 border-2 text-white rounded-full w-48 h-9 hover:bg-white hover:text-slate-950'>Read Case Study 
@@ -35,7 +35,7 @@ return (
      alt='Description of the image'
         width={820}
         height={820}
-        className='rounded-3xl '
+        className='flex justify-center items-center p-4 lg:p-8 rounded-lg'
         />
         </div>
     </div>
