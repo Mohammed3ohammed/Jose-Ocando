@@ -45,7 +45,7 @@ const Work = () => {
 
       <Swiper
         ref={swiperRef}
-        slidesPerView={1}
+        slidesPerView={2}
         loop={true}
         spaceBetween={10}
         freeMode={true}

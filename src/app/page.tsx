@@ -1,10 +1,14 @@
+import Hero from "@/Components/Hero";
 
 
-export default function Home() {
+const Home =  () => {
   return (
     <>
-   
+   <Hero />
   </>
   
   );
 }
+
+
+export default Home;

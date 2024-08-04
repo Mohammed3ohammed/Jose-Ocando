@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
-import Hero from "@/Components/Hero";
 import Intellicheck from "@/Components/Intellicheck";
 import Story from "@/Components/Story";
 import Aggregate from "@/Components/Aggregate";
@@ -27,7 +26,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar/> 
         {children}
-        <Hero />
         <Intellicheck />
         <Story />
         <Aggregate />
