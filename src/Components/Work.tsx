@@ -5,7 +5,10 @@
     import 'swiper/css/pagination';
     import '../app/globals.css';
     import { FreeMode, Pagination } from 'swiper/modules';
+    import { useRef } from 'react';
     import Image from 'next/image';
+
+
     import img1 from "../../Image/Solid/solid1.webp"; 
     import img2 from "../../Image/Solid/solid2.webp"; 
     import img3 from "../../Image/Solid/solid3.webp"; 
@@ -18,10 +21,11 @@
     import img11 from "../../Image/Solid/solid11.webp"; 
     import img13 from "../../Image/Solid/img13.webp";
     import img14 from "../../Image/Solid/img14.webp";
-    import { useRef } from 'react';
+  
 
     const Work = () => {
 
+      const image = [img1 , img2, img3, img4, img5,  img6, img7, img8, img9, img11, img13, img14];
     const swiperRef = useRef<any>(null);
     const handleBack = () => {
     if (swiperRef.current.swiper) {
@@ -34,6 +38,7 @@
     swiperRef.current.swiper.slideNext();
     }
     };
+
 
     return (
     <div className='main-container grid grid-cols-1 justify-center items-center '  style={{height: "900px"}}>
@@ -50,20 +55,20 @@
     allowTouchMove={false}
     modules={[FreeMode, Pagination]}
     className="mySwiper mt-10 "
+
     style={{height: "400px" , width:"800px "}}>
 
-      <SwiperSlide> <Image src={img1} alt='Aggregate Singularity'  className='object-cover rounded-3xl  '/> <h4 className="text-center mt-5">Aggregate Singularity</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img2} alt='New Story'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">New Story</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img3} alt='Intelicheck'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Intelicheck</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img4} alt='Stem Logistics'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Stem Logistics</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img5} alt='GeenHouse'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">GeenHouse</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img6} alt='Climate Neutral'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Climate Neutral</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img7} alt='Good Paper'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Good Paper</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img8} alt='Support Ninja'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Support Ninja</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img9} alt='Happy Valley Farms'  className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Happy Valley Farms</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img11} alt='Whiteboard' className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">Whiteboard</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img13} alt='all where' className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">all where</h4> </SwiperSlide>
-      <SwiperSlide> <Image src={img14} alt='aro' className='object-cover  rounded-3xl '/> <h4 className="text-center mt-5">aro</h4> </SwiperSlide>
+
+     {
+      image.map((img , index) => {
+          return (
+            <SwiperSlide key={index}>
+              <Image src={img}  alt='Error uploading images' />
+            </SwiperSlide>
+          )
+      })
+     }
+
     </Swiper>
 
       <div className="flex justify-center ">
