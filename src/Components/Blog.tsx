@@ -44,14 +44,14 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-10 lg:mt-0 lg:items-start lg:justify-center">
+      <div className="flex flex-col items-center justify-center mt-10  lg:mt-0 lg:items-start lg:justify-center">
         <h2 className="text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left">24 things that make a great marketing website</h2>
-        <div className="text-xl lg:text-2xl mb-10  text-center lg:text-left">
-          <p className="mb-10 lg:mb-6 w-4/6 lg:w-full mx-auto lg:mx-0">
-            I started making websites in 2013. I’ve learned a lot. Most of those learnings came from doing the wrong thing. It’s the curse of any creative that as soon as a project is done, you realize all the ways you could have done things better.
+        <div className="text-xl lg:text-2xl mb-10  text-center lg:text-left ">
+          <p className="mb-10 lg:mb-6 w-4/6 lg:w-full mx-auto mt-4 lg:mx-0">
+            I started making websites in 2013. I have learned a lot. Most of those learnings came from doing the wrong thing. It’s the curse of any creative that as soon as a project is done, you realize all the ways you could have done things better.
           </p>
           <p className="w-4/6 lg:w-full mx-auto lg:mx-0">
-            I’ve (mostly) learned to be ok with that, to come to expect it, and to carry those learnings with me into the next project. Let me share some of those learnings with you.
+            I have (mostly) learned to be ok with that, to come to expect it, and to carry those learnings with me into the next project. Let me share some of those learnings with you.
           </p>
         </div>
         <div className="flex justify-center  lg:justify-start ">
