@@ -1,5 +1,4 @@
-
-    "use client";
+  "use client";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -58,7 +57,7 @@ const Work = () => {
         {
           image.map((img, index) => (
             <SwiperSlide key={index}>
-              <Image src={img} alt='Error uploading images' layout='fill' objectFit='cover' />
+              <Image src={img} alt='Error uploading images' />
             </SwiperSlide>
           ))
         }
