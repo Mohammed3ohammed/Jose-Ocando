@@ -5,7 +5,7 @@ return (
     <>
     <nav className="main-container grid grid-cols-1  mt-6">
         <div className="flex justify-center items-center">
-        <ul className="flex justify-around items-center w-9/12 bg-neutral-200 p-2 rounded-full  max-md:hidden ">
+        <ul className="flex justify-around items-center w-9/12 bg-neutral-400 p-2 rounded-full  max-md:hidden ">
         <li>
         <Link  href="#">
         <svg 

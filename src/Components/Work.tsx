@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import '../app/globals.css';
 import { FreeMode, Pagination } from 'swiper/modules';
 import { useRef } from 'react';
 import Image from 'next/image';
@@ -45,9 +44,9 @@ const Work = () => {
 
       <Swiper
         ref={swiperRef}
-        slidesPerView={2}
+        slidesPerView={3}
         loop={true}
-        spaceBetween={10}
+        spaceBetween={30}
         freeMode={true}
         allowTouchMove={true}
         modules={[FreeMode, Pagination]}

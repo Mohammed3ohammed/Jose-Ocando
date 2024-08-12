@@ -13,7 +13,7 @@ const Footer = () => {
               src={log} alt="logo"
               className='w-12 h-12 rounded-2xl mr-2' 
             />
-            <p className='w-auto '>BRANDO DESIGNER WEBFLOW DEVELOPER</p>
+            <p className='w-auto text-black'>BRANDO DESIGNER WEBFLOW DEVELOPER</p>
           </Link>
         </li>
         <li className="mb-4 md:mb-0">
